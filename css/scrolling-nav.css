@@ -242,3 +242,69 @@ of those sections to manage the look and feel of the site. */
         width: 166px;
         height: 63px;
 }
+
+@media (max-width: 1024px) { 
+
+.intro-section {
+    height: 200%;
+}
+
+.casamento-section {
+    height: 200%;
+}
+
+.indicacoes-section {
+    height: 200%;
+}
+
+.presentes-section {
+    height: 200%;
+}
+
+.download-app-section {
+    height: 200%;
+}
+
+.casamento-section .bg-image
+{
+    background:url('/imgs/casamento_icon.png') no-repeat center center;
+    background-size:contain;
+    height: 400px;
+}
+
+.indicacoes-section .bg-image
+{
+    background:url('/imgs/local_icon.png') no-repeat center center;
+    background-size:contain;
+    height: 400px;
+}
+
+.presentes-section .bg-image
+{
+    background:url('/imgs/presentes_icon.png') no-repeat center center;
+    background-size:contain;
+    height: 400px;
+}
+
+.download-app-section .bg-image
+{
+    background:url('/imgs/download_icon.png') no-repeat center center;
+    background-size:contain;
+    height: 400px;
+}
+
+.btn_container {
+    width: 100%;
+    height: 63px;
+    text-align: left;
+    display: block;
+}
+.indicacoes_btn
+{
+        background:url('/imgs/indicacoes_icon.png') no-repeat center center;
+        width: 166px;
+        height: 63px;
+}
+
+
+}
