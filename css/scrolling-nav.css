@@ -27,7 +27,7 @@
     font-family: 'quicksandbook';
     src: url('/fonts/quicksand_book-webfont.woff2') format('woff2'),
          url('/fonts/quicksand_book-webfont.woff') format('woff');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
 
 }
@@ -38,6 +38,7 @@
 body {
     width: 100%;
     height: 100%;
+    text-align: left;
 }
 
 html {
@@ -61,11 +62,17 @@ html {
 h1 {
 
     font-family: "aracne";
+        text-align: left;
+        font-size: 95px;
+
 }
 
 h3 {
 
     font-family: "quicksandbook";
+        text-align: left;
+        font-size: 25px;
+
 }
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
@@ -85,14 +92,21 @@ of those sections to manage the look and feel of the site. */
     background: #869aae;
 }
 
-.services-section {
+.indicacoes-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.contact-section {
+.presentes-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.download-app-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
@@ -102,6 +116,8 @@ of those sections to manage the look and feel of the site. */
 .odd {
     background: #869aae;
 }
+
+
 
 /*overlay*/
 .overlay{
@@ -184,4 +200,45 @@ of those sections to manage the look and feel of the site. */
     /* 471 × 473 */
     /* The Magic */
     background-size:contain;
+}
+
+.casamento-section .bg-image
+{
+    background:url('/imgs/casamento_icon.png') no-repeat center center;
+    background-size:contain;
+    height: 400px;
+}
+
+.indicacoes-section .bg-image
+{
+    background:url('/imgs/local_icon.png') no-repeat center center;
+    background-size:contain;
+    height: 400px;
+}
+
+.presentes-section .bg-image
+{
+    background:url('/imgs/presentes_icon.png') no-repeat center center;
+    background-size:contain;
+    height: 400px;
+}
+
+.download-app-section .bg-image
+{
+    background:url('/imgs/download_icon.png') no-repeat center center;
+    background-size:contain;
+    height: 400px;
+}
+
+.btn_container {
+    width: 100%;
+    height: 63px;
+    text-align: left;
+    display: block;
+}
+.indicacoes_btn
+{
+        background:url('/imgs/indicacoes_icon.png') no-repeat center center;
+        width: 166px;
+        height: 63px;
 }
