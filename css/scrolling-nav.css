@@ -193,6 +193,10 @@ of those sections to manage the look and feel of the site. */
 }
 
 /* CUSTOM */
+
+.section {
+    min-height: 1000px !important;
+}
 .bg-container {
     /* This image will be displayed fullscreen */
     background:url('/imgs/jr_logo_homepage.png') no-repeat center center;
