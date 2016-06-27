@@ -282,28 +282,28 @@ of those sections to manage the look and feel of the site. */
 {
     background:url('/imgs/casamento_icon.png') no-repeat center center;
     background-size:contain;
-    height: 400px;
+    height: 200px;
 }
 
 .indicacoes-section .bg-image
 {
     background:url('/imgs/local_icon.png') no-repeat center center;
     background-size:contain;
-    height: 400px;
+    height: 200px;
 }
 
 .presentes-section .bg-image
 {
     background:url('/imgs/presentes_icon.png') no-repeat center center;
     background-size:contain;
-    height: 400px;
+    height: 200px;
 }
 
 .download-app-section .bg-image
 {
     background:url('/imgs/download_icon.png') no-repeat center center;
     background-size:contain;
-    height: 400px;
+    height: 200px;
 }
 
 .btn_container {
