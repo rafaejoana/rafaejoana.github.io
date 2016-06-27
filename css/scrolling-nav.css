@@ -252,29 +252,35 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
             padding-top: 50px;
+                        padding-bottom: 50px;
+
 }
 
 .casamento-section {
     height: 800px;
     padding-top: 50px;
+            padding-bottom: 50px;
 
 }
 
 .indicacoes-section {
     height: 800px;
             padding-top: 50px;
+            padding-bottom: 50px;
 
 }
 
 .presentes-section {
     height: 800px;
             padding-top: 50px;
+            padding-bottom: 50px;
 
 }
 
 .download-app-section {
     height: 800px;
             padding-top: 50px;
+            padding-bottom: 50px;
 
 }
 
