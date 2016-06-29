@@ -46,6 +46,36 @@ html {
     height: 100%;
 }
 
+h1 {
+
+    font-family: "aracne";
+        text-align: left;
+        font-size: 5em;
+
+}
+
+h3 {
+
+    font-family: "quicksandbook";
+        text-align: left;
+        font-size: 1.7em;
+
+}
+
+@media(max-width:767px) {
+h1 {
+
+        font-size: 5em;
+
+}
+
+h3 {
+
+        font-size: 1.7em;
+
+}
+
+}
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -59,21 +89,7 @@ html {
     }
 }
 
-h1 {
 
-    font-family: "aracne";
-        text-align: left;
-        font-size: 95px;
-
-}
-
-h3 {
-
-    font-family: "quicksandbook";
-        text-align: left;
-        font-size: 25px;
-
-}
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
