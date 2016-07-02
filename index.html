@@ -33,23 +33,16 @@
 
     <!-- Navigation -->
 
-     <header>
-        <nav>
-            <div class="button">
-                <a href="#">
-                    <p>Menu</p>
-                </a>
-            </div>
-        </nav>
-    </header>
+
+    <!--
     <div class="overlay">
         <div class="wrap main-menu">
             <ul class="wrap-nav">
                 <li><a href="#">Casamento</a>
                 </li>
-                <li><a href="#">Casamento</a>
+                <li><a href="#">Indicações</a>
                 </li>
-                <li><a href="#">Casamento</a>
+                <li><a href="#">Download App</a>
                 </li>
             </ul>
         </div>
@@ -83,7 +76,35 @@
     </script>
 
     
+    -->
+<script type="text/javascript">
+    /* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
 
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+    <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">Casamento</a>
+    <a href="#">Indicações</a>
+    <a href="#">Presentes</a>
+    <a href="#">Download App</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">Menu</span>
     <!-- Intro Section -->
     <section id="intro" class="intro-section bg-container">
         <div class="container">
