@@ -23,14 +23,12 @@
 
 @font-face {
     font-family: 'quicksand_book';
-    src: url('/fonts/quicksand_book-webfont.woff2') format('woff2'),
-         url('/fonts/quicksand_book-webfont.woff') format('woff'),
-         url('/fonts/quicksand_book-webfont.ttf') format('truetype');
+    src: url('/fonts/quicksand-light-webfont.woff2') format('woff2'),
+         url('/fonts/quicksand-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
 
 
 
@@ -60,6 +58,12 @@ h3 {
         font-size: 1.7em;
 
 }
+
+h3 a {
+    text-decoration: none;
+    color: white;
+}
+
 
 nav a p {
         font-family: "aracne";
@@ -100,7 +104,9 @@ h3 {
 
         font-size: 1.5em;
 
+
 }
+
 
 }
 @media(min-width:767px) {
