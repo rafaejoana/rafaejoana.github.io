@@ -62,10 +62,10 @@ h3 {
 }
 
 nav a p {
-        font-family: "quicksand_book";
+        font-family: "aracne";
         text-align: left;
         font-size: 1.7em;
-color: black;
+    color: #869aae;
 text-decoration: none;
 margin-left: 10px;
 margin-top: 10px;
@@ -121,63 +121,76 @@ h3 {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
+.add-margins {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
 .intro-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+
 }
 
 .casamento-section {
-    height: 100%;
-    padding-top: 150px;
     text-align: center;
     background: #869aae;
+            color: #869aae;
+
 }
 
 .indicacoes-section {
-    height: 100%;
-    padding-top: 150px;
     text-align: center;
     background: #fff;
+            color: #869aae;
+
 }
 
 .presentes-section {
-    height: 100%;
-    padding-top: 150px;
     text-align: center;
     background: #eee;
+            color: #869aae;
+
 }
 
 .download-app-section {
-    height: 100%;
-    padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #fff;
+        color: #869aae;
+
 }
 
 .odd {
     background: #869aae;
+    color: white;
+
 }
 
 span.menu_title {
-    font-family: "quicksand_book";
+    font-family: "aracne";
     margin-left: 10px;
     padding-top: 20px;
+    font-size: 4em;
+    color: #869aae;
 }
+
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */ 
-    font-family: "quicksand_book";   
+    font-family: "aracne";   
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    left: 0;
+    left: ;
     top: 0;
     background-color: white; /* Black fallback color */
     background-color: white; /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    border: 15px solid #869aae;
+    display: none;
 }
 
 /* Position the content inside the overlay */
@@ -186,15 +199,15 @@ span.menu_title {
     top: 25%; /* 25% from the top */
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    /*margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
 /* The navigation links inside the overlay */
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
-    color: #818181;
+    font-size: 4em;
+    color: #869aae;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
 }
@@ -223,77 +236,9 @@ span.menu_title {
 }
 
 
-/*overlay
-.overlay{
-    display: none;
- position: fixed;
- top: 0;
- height: 100%;
- width: 100%;
- background: white;
-}
-/*
-.wrap{
- color: #000;
- text-align: center;
- max-width: 1100px;
- margin: 0 auto;
-}
-.wrap ul.wrap-nav{
- border-bottom: 1px solid #575757;
- text-transform: capitalize;
- padding: 150px 0px 100px;
-}
-.wrap ul.wrap-nav > li{
- font-size: 22px;
- display: inline-block;
- vertical-align: top;
- width: 24%;
- position: relative; 
-}
-.wrap ul.wrap-nav > li a{
- color: #d6d6d6;
- display: block;
- padding: 8px 0;
- text-decoration: none;
-}
-.wrap ul.wrap-nav > li a:hover{
- color: #fff;
-}
-.wrap ul.wrap-nav ul{
- padding: 20px 0;
-}
-.wrap ul.wrap-nav ul li{
- display: block;
- font-size: 16px;
- width: 100%;
- color: #919191;
-}
-.wrap ul.wrap-nav ul li a{
- color: #919191;
-}
-
-
-@media screen and (max-width: 48em) {
- .wrap ul.wrap-nav > li{
- width: 100%;
- padding: 20px 0;
- }
- .wrap ul.wrap-nav{
- padding: 30px 0px 0px;
- }
- nav ul{
- opacity: 1;
- }
- .button{
- top: 0;
-}
-}
-*/
-/* CUSTOM */
-
 .section {
     min-height: 1000px !important;
+
 }
 .bg-container {
     /* This image will be displayed fullscreen */
@@ -353,11 +298,23 @@ span.menu_title {
     height: 100%;
     display: block;
 }
-@media (max-width: 1024px) { 
+
+@media (max-width: 766px) { 
+.bg-container {
+    /* This image will be displayed fullscreen */
+    /* Ensure the html element always takes up the full height of the browser window */
+    /* 471 × 473 */
+    /* The Magic */
+    max-width: 235px;
+}
+
+
+}
+/*@media (max-width: 768px) { 
 
 .intro-section {
             padding-top: 50px;
-                        padding-bottom: 50px;
+            padding-bottom: 50px;
 
 }
 
@@ -365,6 +322,8 @@ span.menu_title {
     height: 800px;
     padding-top: 50px;
             padding-bottom: 50px;
+            color: white !important;
+
 
 }
 
@@ -428,4 +387,4 @@ span.menu_title {
 
 
 
-}
+}*/
